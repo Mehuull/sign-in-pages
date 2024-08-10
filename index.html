@@ -3,12 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sign-in page</title>
+    <title>sign in page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-    <h1>sign in psge</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae libero ut consequatur cupiditate dolorem veniam. Totam voluptatem consequatur beatae repellendus!</p>
-    
+    <div class="main">
+        <div class="box-container">
+            <!-- box1 -->
+            <div class="box" id="box">
+                <div class="logo" id="logo">
+                    <h3>Your-Logo</h3>
+                    <p>you must sign-in to join</p>
+                </div>
+
+                <div class="btn">
+                    <button class="google-signin">
+                        <object data="assets/google.png"></object>
+                        <span>Sign in with Google</span>
+                    </button>
+                    <button class="apple-signin">
+                        <object data="assets/apple.jpg"></object>
+                        <span>Sign in with apple</span>
+                    </button>
+                </div>
+
+                <div class="divider-container">
+                    <span class="ordivider">or</span>
+               </div>
+
+               <div class="input-container">
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                    </div>
+                </div>
+
+            <div class="remember-forget">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me" value="remember-me">
+                    <label for="remember-me">remember-me</label> 
+                </div>
+
+                <a href="#" class="forget-password" >forgot password?</a>
+            </div>
+
+            <button class="login-btn">Log In</button>
+            
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            
+            <!-- box2 -->
+            
+
+
+
+
+
+        </div>
+    </div> 
 </body>
 </html>
